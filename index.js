@@ -20,7 +20,16 @@ function increaseRankBy(n) {
 function deepestChild() {
   const grandNode = document.querySelector("#grand-node");
   
+  let child = grandNode.querySelector("div")
   
+  while (child) {
+    if (child.querySelector("div")) {
+      child = child.querySelector("div");
+    }
+    else {
+      return child;
+    }
+  }
   
   
 }
