@@ -23,7 +23,7 @@ function deepestChild() {
   let child = grandNode.children;
   
   while (child.length > 0) {
-    if 
+    if child[0].children
   }
   
   
