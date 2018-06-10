@@ -22,7 +22,7 @@ function deepestChild() {
   
   let child = [0];
   
-  while 
+  while (child.length > 0)
   
   
 }
